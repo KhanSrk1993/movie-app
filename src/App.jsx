@@ -17,10 +17,12 @@ function App() {
   const { url } = useSelector((state) => state.home);
   const dispatch = useDispatch();
 
+  console.log(url);
+
   useEffect(() => {
     fetchApiConfig();
     genresCall();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const fetchApiConfig = () => {
     fetchDataFromApi("/configuration").then((res) => {
