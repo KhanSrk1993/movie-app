@@ -4,6 +4,7 @@ import "./HeroBanner.scss";
 import { useSelector } from "react-redux";
 import useFetch from "../../../hooks/useFetch";
 
+// import Img from "../../../component/lazyloadImage/img";
 import Img from "../../../component/lazyloadImage/img";
 import ContentWrapper from "../../../component/contentWrapper/ContentWrapper";
 
