@@ -1,6 +1,10 @@
 // import React from "react";
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+// import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+// import "react-circular-progressbar/dist/styles.css";
+
+import {CircularProgressbar, buildStyles} from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+
 
 import  "./CircleRating.scss";
 
