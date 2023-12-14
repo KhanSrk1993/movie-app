@@ -6,7 +6,7 @@ import "./CircleRating.scss";
 
 const CircleRating = ({ rating }) => {
     return (
-        <div className="circleRating">
+        <div className="circleRating"> 
             <CircularProgressbar
                 value={rating}
                 maxValue={10}
