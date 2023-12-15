@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import dayjs from "dayjs";
 
-import "./DetailsBanner.scss";
+import "./style.scss";
 
 import ContentWrapper from "../../../component/contentWrapper/ContentWrapper";
 import useFetch from "../../../hooks/useFetch";

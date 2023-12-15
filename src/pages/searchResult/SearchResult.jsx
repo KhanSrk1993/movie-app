@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
-import "./SearchResult.scss"
+import "./style.scss"
 
 import { fetchDataFromApi } from '../../utils/api';
 import ContentWrapper from '../../component/contentWrapper/ContentWrapper';

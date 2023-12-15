@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./SwitchTabs.scss";
+import "./style.scss";
 
 const SwitchTabs = ({ data, onTabChange }) => {
   console.log({ data, onTabChange });

@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 
-import "./Cast.scss";
+import "./style.scss";
 import ContentWrapper from "../../../component/contentWrapper/ContentWrapper";
 import Img from "../../../component/lazyloadImage/Img";
 import avatar from "../../../assets/avatar.png";

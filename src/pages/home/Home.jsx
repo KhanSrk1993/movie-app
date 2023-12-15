@@ -1,4 +1,4 @@
-import "./Home.scss"
+import "./style.scss"
 import HeroBanner from './heroBanner/HeroBanner';
 import Popular from "./popular/Popular";
 import TopRated from "./toprated/TopRated";

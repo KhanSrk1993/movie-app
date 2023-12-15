@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./HeroBanner.scss";
+import "./style.scss";
 import { useSelector } from "react-redux";
 import useFetch from "../../../hooks/useFetch";
 
